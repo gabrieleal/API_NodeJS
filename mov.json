@@ -1,0 +1,14 @@
+[
+    {   "name" : "American Pie",
+        "year" : "2000",
+        "rating" : "8.9"
+    },
+    {   "name" : "Buenos Muchachos",
+        "year" : "1985",
+        "rating" : "10"
+    },
+    {   "name" : "American Pie 2",
+        "year" : "2002",
+        "rating" : "9"
+    }
+]
