@@ -1,9 +1,14 @@
 const { Router } = require("express");
+const fs =require("fs");
 const router = Router();
 
 //routes
 router.get("/",(req,res)=>{
-    res.send("Hola, Ingreso a la pagina principal");
+     fs.readFile("./src/page.html", "utf-8",(err,html)=>{
+         res.writeHead(300,{"content-type" : "text/html"});
+         res.end(html);
+     });
+   
 });
 
 router.get("/user",(req,res)=>{

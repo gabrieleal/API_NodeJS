@@ -11,7 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "jquery": "^3.6.0",
     "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
     "underscore": "^1.12.1"
   },
   "devDependencies": {

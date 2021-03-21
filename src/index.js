@@ -20,6 +20,7 @@ app.set("json spaces", 2);
 //routes
 app.use(require("./routes/rutas"));
 app.use("/api/movies/",require("./movies"));
+app.use("/api/users/",require("./routes/user"));
 
 //starting the server  
 app.listen(app.get("port"), () => {
